@@ -1,2 +1,89 @@
 # linktree
 Linktree - Tierra Compartida
+#codice funzionante
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tierra Compartida</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background: linear-gradient(160deg,#0d7a79,#ffd43b);
+    color:#003049;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    text-align:center;
+    width:90%;
+    max-width:420px;
+}
+
+.profile{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:4px solid white;
+    margin-bottom:15px;
+    object-fit:cover;
+}
+
+h1{
+    margin:10px 0;
+    font-size:28px;
+    color:white;
+}
+
+.bio{
+    opacity:0.95;
+    margin-bottom:30px;
+    color:white;
+}
+
+.link{
+    display:block;
+    background:white;
+    color:#0d7a79;
+    padding:16px;
+    margin:12px 0;
+    border-radius:14px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.25s;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
+
+.link:hover{
+    transform:scale(1.06);
+    background:#fff7cc;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img class="profile" src="Imagen de WhatsApp 2025-06-13 a las 19.00.01_37d6eaa9.jpg">
+
+<h1>Tierra Compartida</h1>
+<p class="bio">Viajes. Comunidad. Cultura. Conexión.</p>
+
+<a class="link" href="https://www.tiktok.com/@tierra_compartida" target="_blank">TikTok</a>
+
+<a class="link" href="https://www.instagram.com/_tierracompartida" target="_blank">Instagram</a>
+
+<a class="link" href="https://www.youtube.com/@TierraCompartida" target="_blank">YouTube</a>
+
+</div>
+
+</body>
+</html>
