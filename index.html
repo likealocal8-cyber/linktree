@@ -6,21 +6,33 @@
 <title>Tierra Compartida</title>
 
 <style>
+
 body{
     margin:0;
     font-family:Arial, sans-serif;
-    background: linear-gradient(160deg,#0d7a79,#ffd43b);
-    color:#003049;
+    height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100vh;
+    overflow:hidden;
+    background: linear-gradient(-45deg,#0d7a79,#159895,#ffe066,#ffd43b);
+    background-size:400% 400%;
+    animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
 }
 
 .container{
     text-align:center;
     width:90%;
     max-width:420px;
+    backdrop-filter: blur(10px);
+    padding:30px;
+    border-radius:20px;
 }
 
 .profile{
@@ -33,15 +45,12 @@ body{
 }
 
 h1{
-    margin:10px 0;
-    font-size:28px;
     color:white;
 }
 
 .bio{
-    opacity:0.95;
-    margin-bottom:30px;
     color:white;
+    margin-bottom:30px;
 }
 
 .link{
@@ -54,13 +63,13 @@ h1{
     text-decoration:none;
     font-weight:bold;
     transition:0.25s;
-    box-shadow:0 6px 15px rgba(0,0,0,0.15);
 }
 
 .link:hover{
-    transform:scale(1.06);
+    transform:scale(1.08);
     background:#fff7cc;
 }
+
 </style>
 </head>
 
@@ -68,15 +77,13 @@ h1{
 
 <div class="container">
 
-<img class="profile" src="Imagen de WhatsApp 2025-06-13 a las 19.00.01_37d6eaa9.jpg">
+<img class="profile" src="LINK-TUA-FOTO">
 
 <h1>Tierra Compartida</h1>
-<p class="bio">Viajes. Comunidad. Cultura. Conexión.</p>
+<p class="bio">Comunidad • Tierra • Cultura • Conexión</p>
 
 <a class="link" href="https://www.tiktok.com/@tierra_compartida" target="_blank">TikTok</a>
-
 <a class="link" href="https://www.instagram.com/_tierracompartida" target="_blank">Instagram</a>
-
 <a class="link" href="https://www.youtube.com/@TierraCompartida" target="_blank">YouTube</a>
 
 </div>
